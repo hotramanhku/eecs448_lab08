@@ -12,6 +12,29 @@ body {
     justify-content: space-around;
 }
 
+#img {
+    padding: 2em;
+    height: 100%;
+}
+
+#links {
+  position: absolute;
+  bottom: 0;
+  width: 21%;
+  height: 30%;
+}
+
+#links a {
+    color: #FCAF07;
+    padding: 1em;
+    line-height: 3em;
+    transition-duration: 0.3s;
+}
+
+#links a:hover {
+    color: white;
+}
+
 .wrapper {
     padding: 2em;
     background-color: #1E264A;
